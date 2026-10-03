@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.run.json
+*.task.json
+data/full/
+results/runs/

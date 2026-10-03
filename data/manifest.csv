@@ -1,0 +1,337 @@
+id,seed,theme,dpi,n_series,metric,unit,service,event_type,start_idx,start_hhmm,implicated_deploy,markers,recovering,peak_value,y_axis_label,dashed_marker_count,log_y,unit_trap,truncated_y,decoy,clutter,n_samples,difficulty,file
+panel_0000,1829338324,dark,75,4,error rate,%,cart-svc,step_change,90,21:15,none,{},False,1.1618,%,0,False,False,False,False,False,180,4,panel_0000.png
+panel_0001,384259585,dark,200,3,error rate,%,inventory,step_change,54,22:39,A,"{""A"": ""22:38"", ""B"": ""22:54"", ""C"": ""23:44""}",False,1.2032,%,3,False,False,False,False,False,240,2,panel_0001.png
+panel_0002,56731231,light,75,4,queue depth,msgs,cart-svc,step_change,137,23:47,none,"{""A"": ""22:08"", ""B"": ""00:04"", ""C"": ""00:50""}",True,2696.0929,msgs,3,False,False,False,False,False,240,4,panel_0002.png
+panel_0003,1374203058,light,200,3,error rate,%,checkout-api,step_change,53,23:38,B,"{""B"": ""23:38"", ""C"": ""00:21""}",False,1.1299,%,2,False,False,False,True,False,120,3,panel_0003.png
+panel_0004,784857332,dark,75,3,queue depth,msgs,payments,ramp,105,19:45,A,"{""A"": ""19:44"", ""C"": ""20:41""}",False,2917.4248,msgs,2,False,False,False,True,True,180,5,panel_0004.png
+panel_0005,1003451250,dark,200,4,error rate,%,search-api,ramp,116,21:56,none,"{""A"": ""23:18"", ""C"": ""23:41""}",False,1.4426,%,2,False,False,False,False,False,240,3,panel_0005.png
+panel_0006,171429433,light,75,4,queue depth,msgs,notif-worker,ramp,52,22:37,none,{},False,3428.0296,msgs,0,False,False,False,False,False,120,4,panel_0006.png
+panel_0007,795643823,light,200,1,p99 latency,s,checkout-api,ramp,105,08:00,B,"{""A"": ""07:41"", ""B"": ""07:59"", ""C"": ""08:16""}",False,0.5146,s,3,False,True,False,False,False,180,1,panel_0007.png
+panel_0008,1381800716,dark,75,2,requests,req/s,cart-svc,spike,75,02:00,none,"{""A"": ""01:41""}",True,14429.2522,req/s,1,False,False,True,True,False,240,4,panel_0008.png
+panel_0009,762179171,dark,200,1,cpu,%,checkout-api,spike,40,12:10,none,"{""A"": ""12:42"", ""B"": ""13:13""}",True,80.0152,%,2,False,False,False,False,False,180,0,panel_0009.png
+panel_0010,1784690067,light,75,2,error rate,%,checkout-api,spike,37,06:22,A,"{""A"": ""06:23""}",True,1.2539,%,1,False,False,True,True,True,120,5,panel_0010.png
+panel_0011,1697625005,light,200,1,queue depth,msgs,checkout-api,spike,83,03:38,none,{},True,5156.3574,msgs,0,False,False,False,False,True,240,1,panel_0011.png
+panel_0012,1512746413,dark,75,2,error rate,%,search-api,flapping,64,06:19,none,"{""A"": ""05:43"", ""B"": ""06:32"", ""C"": ""06:51""}",False,1.2461,%,3,False,False,False,True,False,120,3,panel_0012.png
+panel_0013,1943781587,dark,200,2,p99 latency,ms,payments,flapping,38,11:53,A,"{""A"": ""11:52"", ""C"": ""12:55""}",False,439.7753,ms,2,False,False,False,True,False,120,2,panel_0013.png
+panel_0014,1548783626,light,75,1,error rate,%,search-api,flapping,101,22:41,B,"{""B"": ""22:41""}",False,1.0494,%,1,False,False,False,False,True,240,2,panel_0014.png
+panel_0015,380863078,light,200,1,p99 latency,s,payments,flapping,59,09:44,B,"{""A"": ""09:10"", ""B"": ""09:43"", ""C"": ""10:13""}",False,0.4536,s,3,False,True,True,False,False,180,2,panel_0015.png
+panel_0016,1843517862,dark,75,2,cpu,%,checkout-api,plateau,159,00:24,C,"{""C"": ""00:25""}",False,99.9896,%,1,False,False,False,False,False,240,2,panel_0016.png
+panel_0017,1401844688,dark,200,1,cpu,%,notif-worker,plateau,161,00:11,C,"{""C"": ""00:11""}",False,100.0,%,1,False,False,False,False,True,240,1,panel_0017.png
+panel_0018,211455622,light,75,4,p99 latency,ms,notif-worker,plateau,82,19:22,none,{},False,313.1064,ms,0,False,False,False,True,True,180,6,panel_0018.png
+panel_0019,640600314,light,200,1,cpu,%,payments,plateau,67,08:07,B,"{""A"": ""07:20"", ""B"": ""08:07"", ""C"": ""09:33""}",False,99.9989,%,3,False,False,False,False,False,240,0,panel_0019.png
+panel_0020,355781144,dark,75,1,p99 latency,s,search-api,gap,56,16:41,B,"{""A"": ""15:52"", ""B"": ""16:42"", ""C"": ""18:33""}",True,0.1412,s,3,False,True,False,False,True,180,3,panel_0020.png
+panel_0021,2076535512,dark,200,2,queue depth,msgs,search-api,gap,83,11:23,none,"{""A"": ""10:28"", ""B"": ""12:28"", ""C"": ""13:00""}",True,1007.7674,msgs,3,False,False,True,True,False,240,3,panel_0021.png
+panel_0022,1563282231,light,75,4,requests,req/s,cart-svc,gap,27,16:27,none,{},True,2582.1605,req/s,0,False,False,False,True,True,120,6,panel_0022.png
+panel_0023,1975363177,light,200,1,p99 latency,ms,notif-worker,gap,28,04:58,A,"{""A"": ""04:57"", ""B"": ""05:23"", ""C"": ""05:56""}",True,138.7461,ms,3,True,False,False,False,False,120,1,panel_0023.png
+panel_0024,606662283,dark,75,2,requests,req/s,inventory,none,-1,none,none,"{""A"": ""17:38"", ""B"": ""19:09""}",False,2675.3335,req/s,2,False,False,False,True,True,180,4,panel_0024.png
+panel_0025,1365522153,dark,200,2,p99 latency,s,notif-worker,none,-1,none,none,"{""C"": ""08:13""}",False,0.1447,s,1,False,True,False,False,False,180,2,panel_0025.png
+panel_0026,1297454207,light,75,4,requests,req/s,notif-worker,none,-1,none,none,"{""B"": ""02:10""}",False,2692.4786,req/s,1,False,False,True,True,True,180,7,panel_0026.png
+panel_0027,1616479868,light,200,2,requests,req/s,search-api,none,-1,none,none,"{""A"": ""19:27"", ""B"": ""19:53"", ""C"": ""20:25""}",False,2683.9665,req/s,3,False,False,False,False,False,240,1,panel_0027.png
+panel_0028,253438000,dark,75,2,requests,req/s,inventory,step_change,61,10:16,none,{},True,7884.1574,req/s,0,False,False,False,True,False,240,3,panel_0028.png
+panel_0029,1106284138,dark,200,2,cpu,%,search-api,step_change,75,23:45,C,"{""A"": ""22:41"", ""C"": ""23:44""}",False,81.3689,%,2,False,False,False,False,True,120,2,panel_0029.png
+panel_0030,1384146073,light,75,2,requests,req/s,cart-svc,step_change,147,06:12,none,{},False,10844.6663,req/s,0,False,False,False,False,False,240,2,panel_0030.png
+panel_0031,1773596561,light,200,3,requests,req/s,payments,step_change,123,16:48,none,{},False,6952.9271,req/s,0,True,False,False,True,True,180,5,panel_0031.png
+panel_0032,1408935049,dark,75,4,p99 latency,ms,search-api,ramp,49,09:34,C,"{""A"": ""08:52"", ""C"": ""09:35""}",False,390.824,ms,2,False,False,False,False,True,120,5,panel_0032.png
+panel_0033,962889888,dark,200,3,error rate,%,checkout-api,ramp,135,09:00,C,"{""B"": ""08:02"", ""C"": ""08:59""}",False,1.3962,%,2,False,False,False,True,False,240,3,panel_0033.png
+panel_0034,988131085,light,75,4,queue depth,msgs,search-api,ramp,167,00:02,B,"{""A"": ""22:59"", ""B"": ""00:02""}",False,3011.653,msgs,2,False,False,False,False,False,240,4,panel_0034.png
+panel_0035,727594202,light,200,1,queue depth,msgs,payments,ramp,107,17:32,none,"{""A"": ""16:22""}",False,4177.2045,msgs,1,True,False,False,False,False,180,1,panel_0035.png
+panel_0036,337669510,dark,75,1,cpu,%,cart-svc,spike,34,16:19,none,{},True,79.6556,%,0,False,False,False,False,True,120,2,panel_0036.png
+panel_0037,596784020,dark,200,4,requests,req/s,cart-svc,spike,104,02:59,A,"{""A"": ""02:59"", ""B"": ""04:54""}",True,19098.0735,req/s,2,False,False,True,True,False,240,5,panel_0037.png
+panel_0038,313805771,light,75,2,requests,req/s,cart-svc,spike,71,01:26,B,"{""A"": ""00:46"", ""B"": ""01:26"", ""C"": ""01:44""}",True,10365.408,req/s,3,False,False,False,False,False,120,2,panel_0038.png
+panel_0039,486046538,light,200,3,cpu,%,search-api,spike,120,12:15,A,"{""A"": ""12:14"", ""C"": ""12:36""}",True,74.5416,%,2,False,False,False,False,False,240,2,panel_0039.png
+panel_0040,1833516012,dark,75,3,p99 latency,s,notif-worker,flapping,73,23:13,A,"{""A"": ""23:12""}",False,0.4554,s,1,False,True,False,False,True,180,5,panel_0040.png
+panel_0041,1129183071,dark,200,4,requests,req/s,inventory,flapping,79,16:49,C,"{""C"": ""16:50""}",False,10494.7284,req/s,1,False,False,False,True,False,180,4,panel_0041.png
+panel_0042,196710714,light,75,2,error rate,%,inventory,flapping,43,08:13,A,"{""A"": ""08:14"", ""B"": ""08:39""}",False,1.3607,%,2,False,False,False,False,False,120,2,panel_0042.png
+panel_0043,925376603,light,200,3,p99 latency,s,auth-gw,flapping,94,13:34,B,"{""A"": ""12:43"", ""B"": ""13:34""}",False,0.5172,s,2,False,True,False,False,False,180,3,panel_0043.png
+panel_0044,581507468,dark,75,4,requests,req/s,auth-gw,plateau,96,23:06,B,"{""A"": ""22:30"", ""B"": ""23:05""}",False,5349.954,req/s,2,False,False,True,False,True,180,6,panel_0044.png
+panel_0045,1424169537,dark,200,4,cpu,%,search-api,plateau,141,07:36,B,"{""B"": ""07:35""}",False,99.9965,%,1,False,False,False,False,True,240,4,panel_0045.png
+panel_0046,1783054264,light,75,1,cpu,%,notif-worker,plateau,42,23:12,A,"{""A"": ""23:11"", ""B"": ""23:33"", ""C"": ""00:22""}",False,100.0,%,3,False,False,True,False,True,180,3,panel_0046.png
+panel_0047,27574725,light,200,1,queue depth,msgs,payments,plateau,132,21:12,none,{},False,2339.9715,msgs,0,False,False,False,False,True,240,1,panel_0047.png
+panel_0048,1000337184,dark,75,1,requests,req/s,checkout-api,gap,30,08:15,none,"{""A"": ""07:57"", ""B"": ""08:39"", ""C"": ""09:26""}",True,2675.8264,req/s,3,False,False,False,False,True,120,2,panel_0048.png
+panel_0049,961432512,dark,200,4,cpu,%,cart-svc,gap,78,06:48,none,"{""B"": ""05:43"", ""C"": ""07:17""}",True,44.629,%,2,False,False,False,False,False,120,3,panel_0049.png
+panel_0050,2127514460,light,75,1,p99 latency,s,payments,gap,48,02:18,A,"{""A"": ""02:19""}",True,0.1405,s,1,False,True,False,False,False,180,2,panel_0050.png
+panel_0051,784219798,light,200,1,error rate,%,search-api,gap,119,05:44,C,"{""C"": ""05:43""}",True,0.682,%,1,False,False,False,False,False,240,0,panel_0051.png
+panel_0052,354804651,dark,75,1,cpu,%,checkout-api,none,-1,none,none,"{""A"": ""21:43"", ""C"": ""23:50""}",False,48.4998,%,2,False,False,True,False,True,240,3,panel_0052.png
+panel_0053,419613150,dark,200,1,queue depth,msgs,notif-worker,none,-1,none,none,"{""A"": ""01:40"", ""C"": ""02:12""}",False,1017.118,msgs,2,False,False,False,False,False,240,0,panel_0053.png
+panel_0054,1025534800,light,75,1,cpu,%,payments,none,-1,none,none,"{""A"": ""11:41"", ""B"": ""12:13"", ""C"": ""12:56""}",False,44.3036,%,3,False,False,False,False,True,180,2,panel_0054.png
+panel_0055,1277464729,light,200,3,queue depth,msgs,inventory,none,-1,none,none,"{""C"": ""10:10""}",False,1036.1545,msgs,1,False,False,False,False,False,180,2,panel_0055.png
+panel_0056,701295860,dark,75,3,queue depth,msgs,payments,step_change,103,14:43,none,{},False,4370.623,msgs,0,False,False,False,True,False,240,4,panel_0056.png
+panel_0057,934827883,dark,200,2,p99 latency,s,checkout-api,step_change,104,04:14,none,{},False,0.3911,s,0,False,True,False,False,True,240,3,panel_0057.png
+panel_0058,1424382978,light,75,4,cpu,%,auth-gw,step_change,44,13:44,none,"{""A"": ""13:32"", ""B"": ""14:09"", ""C"": ""14:27""}",False,84.334,%,3,False,False,False,True,False,120,5,panel_0058.png
+panel_0059,644226848,light,200,1,queue depth,msgs,auth-gw,step_change,49,03:49,A,"{""A"": ""03:48"", ""C"": ""05:40""}",False,2331.919,msgs,2,False,False,True,False,False,180,1,panel_0059.png
+panel_0060,2071751629,dark,75,1,cpu,%,cart-svc,ramp,54,10:54,none,"{""C"": ""11:12""}",False,70.1606,%,1,False,False,False,False,False,120,1,panel_0060.png
+panel_0061,449717695,dark,200,2,cpu,%,checkout-api,ramp,126,20:36,C,"{""B"": ""18:45"", ""C"": ""20:37""}",False,72.3813,%,2,False,False,True,False,True,180,3,panel_0061.png
+panel_0062,2008422700,light,75,4,queue depth,msgs,cart-svc,ramp,80,01:20,A,"{""A"": ""01:19"", ""B"": ""02:20"", ""C"": ""02:36""}",False,3890.036,msgs,3,False,False,False,True,True,180,6,panel_0062.png
+panel_0063,1878240859,light,200,1,error rate,%,checkout-api,ramp,128,05:08,A,"{""A"": ""05:07""}",False,1.4707,%,1,False,False,False,False,False,240,0,panel_0063.png
+panel_0064,2055112881,dark,75,4,queue depth,msgs,checkout-api,spike,111,10:21,A,"{""A"": ""10:21""}",True,7095.8974,msgs,1,False,False,True,False,False,240,5,panel_0064.png
+panel_0065,1712537281,dark,200,2,cpu,%,cart-svc,spike,76,16:46,B,"{""A"": ""16:18"", ""B"": ""16:47""}",True,80.5141,%,2,False,False,True,True,False,120,3,panel_0065.png
+panel_0066,1135414850,light,75,3,queue depth,msgs,inventory,spike,102,02:12,B,"{""A"": ""01:53"", ""B"": ""02:12"", ""C"": ""03:05""}",True,6889.8211,msgs,3,False,False,False,False,False,180,3,panel_0066.png
+panel_0067,1302899108,light,200,1,p99 latency,s,search-api,spike,64,16:34,A,"{""A"": ""16:34"", ""C"": ""17:10""}",True,0.7092,s,2,False,True,False,False,False,240,1,panel_0067.png
+panel_0068,443874591,dark,75,3,requests,req/s,payments,flapping,152,08:02,B,"{""B"": ""08:02""}",False,9393.9151,req/s,1,False,False,False,True,False,240,4,panel_0068.png
+panel_0069,994598493,dark,200,3,p99 latency,ms,auth-gw,flapping,68,04:38,none,"{""B"": ""04:04""}",False,462.2034,ms,1,False,False,True,False,False,120,3,panel_0069.png
+panel_0070,2033280017,light,75,3,p99 latency,s,auth-gw,flapping,70,12:25,none,{},False,0.5482,s,0,False,True,False,True,False,240,5,panel_0070.png
+panel_0071,1706772430,light,200,1,requests,req/s,payments,flapping,84,08:24,A,"{""A"": ""08:23"", ""B"": ""09:59""}",False,9743.393,req/s,2,False,False,True,False,True,240,2,panel_0071.png
+panel_0072,1209843698,dark,75,3,cpu,%,cart-svc,plateau,43,23:28,none,"{""B"": ""23:04""}",False,100.0,%,1,False,False,False,False,True,120,4,panel_0072.png
+panel_0073,1277876283,dark,200,3,cpu,%,auth-gw,plateau,45,22:30,none,"{""A"": ""22:39"", ""C"": ""23:33""}",False,99.9986,%,2,False,False,True,False,True,120,4,panel_0073.png
+panel_0074,929350906,light,75,3,queue depth,msgs,search-api,plateau,90,11:00,B,"{""B"": ""10:59""}",False,2328.8951,msgs,1,True,False,False,True,True,180,6,panel_0074.png
+panel_0075,900758260,light,200,1,p99 latency,s,auth-gw,plateau,101,15:26,A,"{""A"": ""15:26"", ""B"": ""17:31""}",False,0.29,s,2,False,True,True,False,False,240,2,panel_0075.png
+panel_0076,1933700788,dark,75,1,cpu,%,search-api,gap,126,14:36,none,{},True,44.6924,%,0,False,False,False,False,False,240,1,panel_0076.png
+panel_0077,8899727,dark,200,1,requests,req/s,auth-gw,gap,70,13:40,B,"{""B"": ""13:41""}",True,2669.7531,req/s,1,True,False,False,False,False,180,1,panel_0077.png
+panel_0078,1494637601,light,75,3,queue depth,msgs,auth-gw,gap,57,21:27,B,"{""A"": ""20:55"", ""B"": ""21:26"", ""C"": ""22:01""}",True,1018.6643,msgs,3,False,False,False,True,False,240,4,panel_0078.png
+panel_0079,884541516,light,200,4,p99 latency,ms,notif-worker,gap,91,15:16,none,{},True,139.8401,ms,0,False,False,False,False,False,240,3,panel_0079.png
+panel_0080,673924020,dark,75,2,queue depth,msgs,cart-svc,none,-1,none,none,"{""A"": ""03:46"", ""C"": ""04:31""}",False,1007.4832,msgs,2,False,False,False,True,True,240,4,panel_0080.png
+panel_0081,168265064,dark,200,3,queue depth,msgs,search-api,none,-1,none,none,"{""A"": ""17:50"", ""B"": ""18:22"", ""C"": ""19:05""}",False,1029.3009,msgs,3,False,False,False,False,False,120,2,panel_0081.png
+panel_0082,561680889,light,75,2,error rate,%,auth-gw,none,-1,none,none,"{""C"": ""23:22""}",False,0.5785,%,1,False,False,True,True,False,240,4,panel_0082.png
+panel_0083,227041179,light,200,1,error rate,%,search-api,none,-1,none,none,"{""A"": ""07:55"", ""B"": ""08:32""}",False,0.6461,%,2,False,False,False,False,True,180,1,panel_0083.png
+panel_0084,1505044349,dark,75,4,queue depth,msgs,payments,step_change,74,09:14,A,"{""A"": ""09:15""}",True,4146.1039,msgs,1,False,False,False,True,True,180,6,panel_0084.png
+panel_0085,918743961,dark,200,2,queue depth,msgs,cart-svc,step_change,58,11:58,none,"{""A"": ""11:19"", ""B"": ""12:09"", ""C"": ""12:29""}",False,4656.126,msgs,3,False,False,False,False,False,120,1,panel_0085.png
+panel_0086,489394297,light,75,1,p99 latency,ms,inventory,step_change,110,20:35,C,"{""A"": ""19:12"", ""B"": ""19:57"", ""C"": ""20:35""}",False,597.3841,ms,3,False,False,False,False,False,180,1,panel_0086.png
+panel_0087,1159770942,light,200,3,p99 latency,ms,payments,step_change,63,21:03,C,"{""A"": ""20:07"", ""C"": ""21:02""}",False,523.2913,ms,2,False,False,False,False,False,180,2,panel_0087.png
+panel_0088,1058946354,dark,75,4,requests,req/s,auth-gw,ramp,102,16:27,C,"{""B"": ""14:53"", ""C"": ""16:26""}",False,11706.913,req/s,2,False,False,True,False,False,180,5,panel_0088.png
+panel_0089,1015247637,dark,200,1,queue depth,msgs,auth-gw,ramp,155,11:50,none,{},False,4064.697,msgs,0,False,False,False,False,False,240,0,panel_0089.png
+panel_0090,1245601617,light,75,1,cpu,%,checkout-api,ramp,152,17:17,C,"{""A"": ""15:28"", ""B"": ""16:38"", ""C"": ""17:18""}",False,77.6562,%,3,False,False,False,False,False,240,1,panel_0090.png
+panel_0091,1345712949,light,200,4,cpu,%,payments,ramp,99,13:54,B,"{""A"": ""13:32"", ""B"": ""13:55"", ""C"": ""14:52""}",False,72.1022,%,3,False,False,True,True,False,240,5,panel_0091.png
+panel_0092,405673328,dark,75,4,queue depth,msgs,notif-worker,spike,45,13:15,B,"{""B"": ""13:14"", ""C"": ""13:50""}",True,7360.1516,msgs,2,False,False,False,False,False,180,4,panel_0092.png
+panel_0093,332921972,dark,200,2,p99 latency,ms,payments,spike,71,05:26,none,"{""B"": ""05:15"", ""C"": ""05:44""}",True,476.455,ms,2,False,False,False,True,False,120,2,panel_0093.png
+panel_0094,1570327355,light,75,1,cpu,%,inventory,spike,136,23:01,C,"{""A"": ""21:29"", ""B"": ""22:28"", ""C"": ""23:01""}",True,75.0244,%,3,False,False,False,False,False,240,1,panel_0094.png
+panel_0095,2088732387,light,200,4,requests,req/s,notif-worker,spike,82,04:07,none,"{""B"": ""03:07"", ""C"": ""05:37""}",True,14818.6667,req/s,2,False,False,False,True,True,180,5,panel_0095.png
+panel_0096,1177858411,dark,75,1,p99 latency,s,inventory,flapping,81,15:21,C,"{""C"": ""15:22""}",False,0.4311,s,1,True,True,False,False,False,120,3,panel_0096.png
+panel_0097,968084854,dark,200,1,queue depth,msgs,inventory,flapping,60,14:15,B,"{""A"": ""13:56"", ""B"": ""14:16""}",False,3362.3202,msgs,2,False,False,False,False,False,120,0,panel_0097.png
+panel_0098,1334668086,light,75,1,queue depth,msgs,auth-gw,flapping,62,07:47,B,"{""A"": ""07:18"", ""B"": ""07:48""}",False,3456.8786,msgs,2,False,False,False,False,False,120,1,panel_0098.png
+panel_0099,74406781,light,200,1,requests,req/s,notif-worker,flapping,99,08:09,A,"{""A"": ""08:09"", ""B"": ""08:43"", ""C"": ""09:56""}",False,9764.861,req/s,3,False,False,False,False,False,240,0,panel_0099.png
+panel_0100,799173834,dark,75,4,queue depth,msgs,inventory,plateau,29,19:14,none,{},False,2494.9662,msgs,0,False,False,False,True,True,120,6,panel_0100.png
+panel_0101,770410468,dark,200,4,queue depth,msgs,notif-worker,plateau,83,15:38,B,"{""B"": ""15:37""}",False,2509.9532,msgs,1,False,False,True,True,False,180,5,panel_0101.png
+panel_0102,902358154,light,75,2,requests,req/s,inventory,plateau,138,10:18,none,"{""A"": ""10:00"", ""C"": ""10:32""}",False,6289.7505,req/s,2,False,False,False,True,False,240,3,panel_0102.png
+panel_0103,1597664074,light,200,3,p99 latency,s,search-api,plateau,83,18:08,A,"{""A"": ""18:08"", ""B"": ""18:24""}",False,0.2903,s,2,False,True,True,False,False,180,4,panel_0103.png
+panel_0104,1062638641,dark,75,1,p99 latency,s,auth-gw,gap,37,12:07,B,"{""B"": ""12:06""}",True,0.1382,s,1,True,True,False,False,True,180,4,panel_0104.png
+panel_0105,1837774110,dark,200,4,p99 latency,ms,inventory,gap,32,03:17,A,"{""A"": ""03:17"", ""B"": ""04:22"", ""C"": ""04:38""}",True,143.703,ms,3,False,False,False,True,True,120,5,panel_0105.png
+panel_0106,1009254848,light,75,1,error rate,%,checkout-api,gap,86,09:41,A,"{""A"": ""09:41""}",True,0.5727,%,1,False,False,False,False,True,180,2,panel_0106.png
+panel_0107,1450924182,light,200,1,requests,req/s,inventory,gap,124,15:04,none,"{""A"": ""15:33""}",True,2643.9852,req/s,1,False,False,False,False,True,180,1,panel_0107.png
+panel_0108,1713839172,dark,75,1,error rate,%,auth-gw,none,-1,none,none,{},False,0.6857,%,0,False,False,False,False,False,120,1,panel_0108.png
+panel_0109,1239479251,dark,200,3,queue depth,msgs,search-api,none,-1,none,none,"{""B"": ""16:15""}",False,1059.3607,msgs,1,False,False,False,True,False,180,3,panel_0109.png
+panel_0110,2013339824,light,75,3,queue depth,msgs,inventory,none,-1,none,none,"{""C"": ""22:03""}",False,1043.0227,msgs,1,False,False,False,False,False,240,3,panel_0110.png
+panel_0111,893934398,light,200,1,requests,req/s,search-api,none,-1,none,none,"{""A"": ""09:24"", ""B"": ""11:33""}",False,2684.5938,req/s,2,False,False,False,False,False,180,0,panel_0111.png
+panel_0112,1711792828,dark,75,1,queue depth,msgs,search-api,step_change,112,12:07,none,{},False,4424.3625,msgs,0,True,False,False,False,True,180,3,panel_0112.png
+panel_0113,83707791,dark,200,1,queue depth,msgs,auth-gw,step_change,47,14:17,B,"{""A"": ""13:36"", ""B"": ""14:16"", ""C"": ""15:11""}",False,5004.5925,msgs,3,False,False,True,False,True,180,2,panel_0113.png
+panel_0114,1705168718,light,75,1,error rate,%,cart-svc,step_change,155,18:20,B,"{""B"": ""18:21""}",True,1.0567,%,1,False,False,False,False,True,240,2,panel_0114.png
+panel_0115,1875511635,light,200,3,queue depth,msgs,auth-gw,step_change,56,19:56,B,"{""B"": ""19:57"", ""C"": ""20:23""}",False,3523.4052,msgs,2,False,False,False,False,True,120,3,panel_0115.png
+panel_0116,1115369120,dark,75,2,p99 latency,s,inventory,ramp,110,16:05,A,"{""A"": ""16:04"", ""B"": ""16:43""}",False,0.5881,s,2,False,True,False,True,False,180,4,panel_0116.png
+panel_0117,1616452963,dark,200,1,queue depth,msgs,notif-worker,ramp,48,15:03,B,"{""B"": ""15:04"", ""C"": ""15:26""}",False,3729.7202,msgs,2,False,False,False,False,False,180,0,panel_0117.png
+panel_0118,701249325,light,75,4,p99 latency,ms,auth-gw,ramp,151,13:01,none,{},False,372.111,ms,0,False,False,True,False,True,240,6,panel_0118.png
+panel_0119,1561274697,light,200,1,error rate,%,payments,ramp,58,02:28,none,{},False,1.9748,%,0,False,False,False,False,True,120,1,panel_0119.png
+panel_0120,1073645234,dark,75,1,cpu,%,inventory,spike,151,19:16,none,{},True,77.6235,%,0,False,False,False,False,False,240,1,panel_0120.png
+panel_0121,651924316,dark,200,4,requests,req/s,notif-worker,spike,114,13:09,none,"{""A"": ""11:27"", ""B"": ""11:59""}",True,17805.6725,req/s,2,False,False,False,True,False,180,4,panel_0121.png
+panel_0122,200673613,light,75,1,cpu,%,notif-worker,spike,48,19:48,none,{},True,80.0179,%,0,False,False,False,False,False,180,1,panel_0122.png
+panel_0123,375083757,light,200,1,error rate,%,payments,spike,59,07:44,none,"{""A"": ""08:28"", ""B"": ""08:45"", ""C"": ""10:30""}",True,0.8376,%,3,False,False,False,False,False,240,0,panel_0123.png
+panel_0124,1942837201,dark,75,2,cpu,%,auth-gw,flapping,84,04:54,A,"{""A"": ""04:53""}",False,85.0,%,1,False,False,False,False,False,240,2,panel_0124.png
+panel_0125,953091998,dark,200,4,cpu,%,auth-gw,flapping,49,13:19,B,"{""B"": ""13:19""}",False,78.0532,%,1,False,False,False,True,True,180,5,panel_0125.png
+panel_0126,2125442234,light,75,3,requests,req/s,checkout-api,flapping,70,19:10,C,"{""A"": ""18:17"", ""C"": ""19:09""}",False,9116.4537,req/s,2,True,False,False,False,False,120,4,panel_0126.png
+panel_0127,757794021,light,200,2,cpu,%,search-api,flapping,146,20:41,C,"{""C"": ""20:42""}",False,82.4927,%,1,False,False,False,True,False,240,2,panel_0127.png
+panel_0128,126132918,dark,75,4,queue depth,msgs,notif-worker,plateau,124,09:49,A,"{""A"": ""09:49""}",False,1929.9623,msgs,1,False,False,False,False,False,240,4,panel_0128.png
+panel_0129,550207905,dark,200,3,p99 latency,s,notif-worker,plateau,60,17:30,B,"{""B"": ""17:29""}",False,0.32,s,1,False,True,False,True,True,240,5,panel_0129.png
+panel_0130,769295683,light,75,4,error rate,%,checkout-api,plateau,29,13:44,none,{},False,100.0,%,0,False,False,False,False,False,120,4,panel_0130.png
+panel_0131,1505409995,light,200,4,error rate,%,notif-worker,plateau,72,08:57,C,"{""A"": ""07:58"", ""B"": ""08:14"", ""C"": ""08:56""}",False,100.0,%,3,False,False,True,True,True,240,6,panel_0131.png
+panel_0132,1567801741,dark,75,2,queue depth,msgs,inventory,gap,35,06:05,C,"{""A"": ""05:41"", ""C"": ""06:05""}",True,981.9048,msgs,2,False,False,False,True,False,120,3,panel_0132.png
+panel_0133,1582616528,dark,200,1,p99 latency,ms,auth-gw,gap,78,10:03,C,"{""C"": ""10:04""}",True,138.0686,ms,1,False,False,False,False,False,120,0,panel_0133.png
+panel_0134,674821247,light,75,1,p99 latency,s,search-api,gap,50,02:50,C,"{""B"": ""02:27"", ""C"": ""02:49""}",True,0.1387,s,2,False,True,False,False,False,120,2,panel_0134.png
+panel_0135,1302024144,light,200,2,requests,req/s,search-api,gap,70,17:55,none,{},True,2726.1124,req/s,0,False,False,False,True,False,120,2,panel_0135.png
+panel_0136,894579329,dark,75,3,p99 latency,s,checkout-api,none,-1,none,none,"{""A"": ""02:31"", ""B"": ""03:04""}",False,0.1392,s,2,False,True,False,False,False,120,4,panel_0136.png
+panel_0137,408461616,dark,200,2,error rate,%,payments,none,-1,none,none,"{""A"": ""06:02"", ""B"": ""06:16"", ""C"": ""07:58""}",False,0.5933,%,3,False,False,False,True,False,240,2,panel_0137.png
+panel_0138,1662607947,light,75,2,queue depth,msgs,payments,none,-1,none,none,"{""A"": ""07:03"", ""C"": ""08:52""}",False,989.5469,msgs,2,True,False,False,False,False,180,3,panel_0138.png
+panel_0139,1118315731,light,200,1,cpu,%,notif-worker,none,-1,none,none,"{""C"": ""22:23""}",False,45.0237,%,1,False,False,False,False,False,180,0,panel_0139.png
+panel_0140,2058286627,dark,75,2,error rate,%,search-api,step_change,126,04:36,A,"{""A"": ""04:37"", ""B"": ""05:08"", ""C"": ""05:25""}",True,1.27,%,3,False,False,False,False,False,240,2,panel_0140.png
+panel_0141,2031743810,dark,200,2,error rate,%,notif-worker,step_change,26,03:11,none,"{""A"": ""02:58"", ""B"": ""03:30"", ""C"": ""04:34""}",False,1.4692,%,3,False,False,False,True,False,120,2,panel_0141.png
+panel_0142,1907814649,light,75,2,cpu,%,cart-svc,step_change,77,03:02,C,"{""C"": ""03:01""}",False,83.5113,%,1,False,False,False,True,False,180,3,panel_0142.png
+panel_0143,2063214289,light,200,1,cpu,%,payments,step_change,55,22:25,none,{},True,83.4054,%,0,False,False,False,False,True,180,1,panel_0143.png
+panel_0144,1333448756,dark,75,3,cpu,%,inventory,ramp,122,03:17,A,"{""A"": ""03:16""}",False,76.8032,%,1,False,False,False,True,True,240,5,panel_0144.png
+panel_0145,640462066,dark,200,3,cpu,%,search-api,ramp,68,06:08,none,"{""B"": ""06:43""}",False,82.688,%,1,False,False,False,True,False,180,3,panel_0145.png
+panel_0146,344186465,light,75,1,requests,req/s,checkout-api,ramp,57,15:57,B,"{""B"": ""15:57"", ""C"": ""16:51""}",False,8872.1327,req/s,2,False,False,False,False,True,180,2,panel_0146.png
+panel_0147,225956095,light,200,1,cpu,%,search-api,ramp,107,13:47,none,{},False,75.6082,%,0,False,False,False,False,False,180,0,panel_0147.png
+panel_0148,2033800336,dark,75,1,requests,req/s,checkout-api,spike,103,15:13,B,"{""B"": ""15:14""}",True,18068.6729,req/s,1,False,False,False,False,False,180,1,panel_0148.png
+panel_0149,580532220,dark,200,3,error rate,%,search-api,spike,90,21:00,none,"{""C"": ""21:44""}",True,0.8656,%,1,False,False,False,True,True,180,4,panel_0149.png
+panel_0150,50750253,light,75,1,requests,req/s,notif-worker,spike,74,04:44,C,"{""A"": ""03:41"", ""B"": ""04:19"", ""C"": ""04:44""}",True,15588.3968,req/s,3,False,False,False,False,False,120,1,panel_0150.png
+panel_0151,80611195,light,200,3,queue depth,msgs,payments,spike,36,15:51,none,{},True,4895.2461,msgs,0,False,False,False,False,False,120,2,panel_0151.png
+panel_0152,639326189,dark,75,1,p99 latency,s,checkout-api,flapping,47,17:17,B,"{""B"": ""17:18""}",False,0.4244,s,1,False,True,False,False,False,120,2,panel_0152.png
+panel_0153,2103204433,dark,200,1,queue depth,msgs,cart-svc,flapping,77,20:32,none,{},False,3408.9326,msgs,0,False,False,False,False,False,120,0,panel_0153.png
+panel_0154,604760370,light,75,3,queue depth,msgs,search-api,flapping,113,20:38,none,"{""A"": ""19:48"", ""B"": ""20:47"", ""C"": ""22:06""}",False,3414.2402,msgs,3,False,False,False,True,False,240,4,panel_0154.png
+panel_0155,219280514,light,200,1,cpu,%,cart-svc,flapping,51,23:21,none,{},False,82.625,%,0,False,False,True,False,False,120,1,panel_0155.png
+panel_0156,1442735309,dark,75,1,p99 latency,s,cart-svc,plateau,97,08:22,A,"{""A"": ""08:22""}",False,0.28,s,1,False,True,False,False,False,240,2,panel_0156.png
+panel_0157,128256395,dark,200,1,queue depth,msgs,auth-gw,plateau,62,15:17,C,"{""A"": ""14:25"", ""B"": ""14:40"", ""C"": ""15:18""}",False,2539.7465,msgs,3,False,False,False,False,False,120,0,panel_0157.png
+panel_0158,1046604214,light,75,1,queue depth,msgs,payments,plateau,72,13:57,C,"{""C"": ""13:57""}",False,2071.8032,msgs,1,True,False,False,False,False,180,2,panel_0158.png
+panel_0159,184979277,light,200,3,error rate,%,notif-worker,plateau,72,23:27,A,"{""A"": ""23:27"", ""C"": ""00:59""}",False,99.9975,%,2,False,False,False,False,False,240,2,panel_0159.png
+panel_0160,773342157,dark,75,4,requests,req/s,notif-worker,gap,74,11:29,C,"{""A"": ""10:20"", ""B"": ""10:41"", ""C"": ""11:30""}",True,2641.2604,req/s,3,True,False,False,False,False,180,5,panel_0160.png
+panel_0161,2004411532,dark,200,1,cpu,%,auth-gw,gap,67,08:37,A,"{""A"": ""08:36"", ""B"": ""10:09"", ""C"": ""10:35""}",True,46.6769,%,3,False,False,False,False,True,240,1,panel_0161.png
+panel_0162,1055452418,light,75,3,cpu,%,notif-worker,gap,49,05:19,A,"{""A"": ""05:19""}",True,45.577,%,1,False,False,False,False,True,240,4,panel_0162.png
+panel_0163,1194273279,light,200,3,requests,req/s,search-api,gap,50,03:20,none,"{""A"": ""03:37"", ""C"": ""04:00""}",True,2666.7415,req/s,2,False,False,False,False,False,120,2,panel_0163.png
+panel_0164,1291458270,dark,75,1,error rate,%,checkout-api,none,-1,none,none,"{""B"": ""06:06"", ""C"": ""08:36""}",False,0.6418,%,2,False,False,False,False,False,240,1,panel_0164.png
+panel_0165,1000785577,dark,200,3,error rate,%,checkout-api,none,-1,none,none,{},False,0.6602,%,0,False,False,False,False,False,180,2,panel_0165.png
+panel_0166,1211232023,light,75,3,requests,req/s,auth-gw,none,-1,none,none,"{""C"": ""15:25""}",False,2687.3235,req/s,1,True,False,False,False,False,240,4,panel_0166.png
+panel_0167,1229322242,light,200,1,requests,req/s,auth-gw,none,-1,none,none,{},False,2672.6798,req/s,0,False,False,False,False,False,180,0,panel_0167.png
+panel_0168,1912246373,dark,75,2,requests,req/s,inventory,step_change,78,21:18,none,"{""B"": ""21:49"", ""C"": ""23:49""}",True,8694.8788,req/s,2,False,False,False,False,True,240,3,panel_0168.png
+panel_0169,651489585,dark,200,1,error rate,%,cart-svc,step_change,60,05:00,A,"{""A"": ""05:00""}",False,1.2347,%,1,False,False,False,False,False,240,0,panel_0169.png
+panel_0170,1972242233,light,75,3,requests,req/s,checkout-api,step_change,166,10:16,none,"{""B"": ""09:28""}",False,7350.4627,req/s,1,False,False,False,False,True,240,4,panel_0170.png
+panel_0171,370358027,light,200,3,requests,req/s,search-api,step_change,60,03:00,B,"{""A"": ""02:08"", ""B"": ""03:01"", ""C"": ""03:50""}",False,8758.2061,req/s,3,False,False,False,False,False,180,2,panel_0171.png
+panel_0172,404279174,dark,75,1,cpu,%,payments,ramp,41,19:41,B,"{""B"": ""19:42""}",False,72.8808,%,1,False,False,False,False,True,120,2,panel_0172.png
+panel_0173,547672044,dark,200,1,p99 latency,s,inventory,ramp,98,18:53,A,"{""A"": ""18:52"", ""B"": ""20:00"", ""C"": ""21:00""}",False,0.4213,s,3,False,True,False,False,False,240,1,panel_0173.png
+panel_0174,2023189160,light,75,3,error rate,%,payments,ramp,135,21:45,B,"{""B"": ""21:46""}",False,1.5931,%,1,False,False,False,False,False,180,3,panel_0174.png
+panel_0175,525635816,light,200,2,cpu,%,payments,ramp,152,11:47,none,"{""A"": ""10:04"", ""B"": ""12:33""}",False,76.1624,%,2,False,False,False,False,False,240,1,panel_0175.png
+panel_0176,1691630048,dark,75,3,p99 latency,s,inventory,spike,31,17:31,none,{},True,0.5409,s,0,False,True,False,False,True,120,5,panel_0176.png
+panel_0177,1252172750,dark,200,4,requests,req/s,search-api,spike,111,15:36,B,"{""A"": ""14:47"", ""B"": ""15:36"", ""C"": ""16:15""}",True,17132.5461,req/s,3,False,False,True,True,False,240,5,panel_0177.png
+panel_0178,1372298426,light,75,2,queue depth,msgs,inventory,spike,76,11:01,B,"{""A"": ""10:04"", ""B"": ""11:00""}",True,3744.3022,msgs,2,False,False,False,True,False,120,3,panel_0178.png
+panel_0179,166540540,light,200,1,requests,req/s,notif-worker,spike,48,21:18,B,"{""B"": ""21:18"", ""C"": ""21:58""}",True,15360.4085,req/s,2,False,False,False,False,True,120,1,panel_0179.png
+panel_0180,1416495820,dark,75,2,requests,req/s,notif-worker,flapping,67,18:37,A,"{""A"": ""18:36""}",False,7907.0889,req/s,1,False,False,False,True,True,120,4,panel_0180.png
+panel_0181,149252948,dark,200,2,queue depth,msgs,search-api,flapping,73,14:28,B,"{""B"": ""14:27""}",False,3486.2009,msgs,1,True,False,False,False,False,180,2,panel_0181.png
+panel_0182,1172655413,light,75,2,requests,req/s,auth-gw,flapping,51,01:36,C,"{""C"": ""01:36""}",False,9331.2369,req/s,1,True,False,False,False,False,120,3,panel_0182.png
+panel_0183,1690175565,light,200,3,cpu,%,payments,flapping,83,15:38,B,"{""A"": ""14:54"", ""B"": ""15:39""}",False,75.3645,%,2,False,False,True,True,True,120,5,panel_0183.png
+panel_0184,1969807935,dark,75,1,queue depth,msgs,checkout-api,plateau,87,13:42,C,"{""C"": ""13:43""}",False,2489.9994,msgs,1,False,False,False,False,True,240,2,panel_0184.png
+panel_0185,2125365994,dark,200,1,cpu,%,payments,plateau,51,01:36,B,"{""B"": ""01:36""}",False,100.0,%,1,False,False,False,False,False,120,0,panel_0185.png
+panel_0186,500928920,light,75,4,cpu,%,checkout-api,plateau,64,02:34,none,"{""A"": ""02:25"", ""B"": ""02:51""}",False,100.0,%,2,False,False,False,False,True,120,5,panel_0186.png
+panel_0187,1648492010,light,200,1,requests,req/s,search-api,plateau,72,21:27,none,"{""A"": ""20:32"", ""B"": ""20:50"", ""C"": ""21:57""}",False,7088.8045,req/s,3,False,False,False,False,False,120,0,panel_0187.png
+panel_0188,1287021292,dark,75,1,cpu,%,notif-worker,gap,68,07:08,B,"{""B"": ""07:07""}",True,42.6326,%,1,False,False,False,False,True,120,2,panel_0188.png
+panel_0189,1575488498,dark,200,1,cpu,%,inventory,gap,54,04:39,C,"{""C"": ""04:39""}",True,44.9871,%,1,False,False,False,False,False,120,0,panel_0189.png
+panel_0190,1748573659,light,75,3,queue depth,msgs,inventory,gap,82,17:37,B,"{""B"": ""17:36"", ""C"": ""17:52""}",True,1030.9301,msgs,2,False,False,False,True,False,180,4,panel_0190.png
+panel_0191,1018421821,light,200,1,queue depth,msgs,payments,gap,141,13:51,A,"{""A"": ""13:51""}",True,1008.1643,msgs,1,True,False,False,False,False,240,1,panel_0191.png
+panel_0192,289398013,dark,75,3,p99 latency,ms,checkout-api,none,-1,none,none,{},False,136.983,ms,0,False,False,True,True,False,180,5,panel_0192.png
+panel_0193,1693783399,dark,200,4,queue depth,msgs,search-api,none,-1,none,none,"{""A"": ""08:14"", ""C"": ""11:02""}",False,1049.4636,msgs,2,False,False,True,False,True,240,5,panel_0193.png
+panel_0194,1321793953,light,75,4,requests,req/s,search-api,none,-1,none,none,"{""C"": ""01:48""}",False,2640.3796,req/s,1,False,False,True,False,True,120,6,panel_0194.png
+panel_0195,286767820,light,200,1,cpu,%,checkout-api,none,-1,none,none,"{""B"": ""02:40"", ""C"": ""03:06""}",False,44.0119,%,2,False,False,False,False,False,120,0,panel_0195.png
+panel_0196,865078301,dark,75,4,cpu,%,auth-gw,step_change,78,08:03,A,"{""A"": ""08:02"", ""B"": ""09:02""}",True,77.7065,%,2,False,False,False,False,False,180,4,panel_0196.png
+panel_0197,311758171,dark,200,2,cpu,%,payments,step_change,138,23:33,none,{},False,85.0,%,0,False,False,False,False,True,240,2,panel_0197.png
+panel_0198,1645050516,light,75,2,error rate,%,auth-gw,step_change,103,10:13,none,"{""A"": ""09:10"", ""B"": ""09:44""}",False,1.2409,%,2,False,False,False,False,False,180,2,panel_0198.png
+panel_0199,718918620,light,200,1,error rate,%,search-api,step_change,83,08:38,none,{},False,1.4352,%,0,False,False,False,False,False,180,0,panel_0199.png
+panel_0200,145415481,dark,75,1,queue depth,msgs,payments,ramp,49,12:49,none,"{""A"": ""12:32"", ""B"": ""13:35"", ""C"": ""13:51""}",False,3353.535,msgs,3,False,False,True,False,False,120,2,panel_0200.png
+panel_0201,610715048,dark,200,1,p99 latency,ms,payments,ramp,60,20:30,none,{},False,457.0179,ms,0,False,False,True,False,True,240,2,panel_0201.png
+panel_0202,1303123959,light,75,2,p99 latency,s,checkout-api,ramp,36,13:06,B,"{""A"": ""12:51"", ""B"": ""13:07"", ""C"": ""13:24""}",False,0.5062,s,3,False,True,False,True,False,120,4,panel_0202.png
+panel_0203,1269530603,light,200,1,error rate,%,notif-worker,ramp,52,05:52,none,"{""B"": ""05:36"", ""C"": ""06:13""}",False,1.5964,%,2,False,False,False,False,False,120,0,panel_0203.png
+panel_0204,1840562470,dark,75,1,p99 latency,ms,cart-svc,spike,82,23:22,none,"{""C"": ""22:05""}",True,596.3444,ms,1,False,False,False,False,True,120,2,panel_0204.png
+panel_0205,775206813,dark,200,1,error rate,%,notif-worker,spike,48,12:48,none,{},True,1.0783,%,0,False,False,False,False,True,240,1,panel_0205.png
+panel_0206,1349366758,light,75,1,error rate,%,notif-worker,spike,80,10:05,none,"{""A"": ""10:13"", ""B"": ""10:43"", ""C"": ""11:23""}",True,1.0607,%,3,False,False,False,False,False,180,1,panel_0206.png
+panel_0207,2029113416,light,200,1,requests,req/s,notif-worker,spike,40,03:40,none,"{""A"": ""03:51"", ""C"": ""04:48""}",True,15853.5989,req/s,2,True,False,False,False,False,120,1,panel_0207.png
+panel_0208,690067445,dark,75,4,requests,req/s,inventory,flapping,54,21:09,A,"{""A"": ""21:08"", ""B"": ""21:30"", ""C"": ""23:12""}",False,9928.0759,req/s,3,False,False,False,True,True,240,6,panel_0208.png
+panel_0209,65072057,dark,200,4,requests,req/s,inventory,flapping,82,19:37,B,"{""B"": ""19:36""}",False,9802.693,req/s,1,True,False,False,False,True,240,5,panel_0209.png
+panel_0210,1408311305,light,75,3,requests,req/s,payments,flapping,69,04:39,C,"{""B"": ""03:46"", ""C"": ""04:39""}",False,9025.354,req/s,2,False,False,False,False,False,180,3,panel_0210.png
+panel_0211,1289773916,light,200,1,error rate,%,inventory,flapping,74,05:44,B,"{""A"": ""05:13"", ""B"": ""05:44"", ""C"": ""05:58""}",False,1.357,%,3,False,False,False,False,True,240,1,panel_0211.png
+panel_0212,726177699,dark,75,3,p99 latency,ms,checkout-api,plateau,69,06:09,none,"{""A"": ""05:19"", ""B"": ""05:57"", ""C"": ""06:47""}",False,290.3929,ms,3,False,False,True,False,False,120,4,panel_0212.png
+panel_0213,1208571653,dark,200,3,queue depth,msgs,cart-svc,plateau,53,02:23,C,"{""A"": ""01:52"", ""C"": ""02:24""}",False,2309.845,msgs,2,False,False,False,True,True,120,4,panel_0213.png
+panel_0214,1435792079,light,75,1,cpu,%,auth-gw,plateau,91,04:31,B,"{""B"": ""04:32"", ""C"": ""05:22""}",False,100.0,%,2,False,False,False,False,False,180,1,panel_0214.png
+panel_0215,1757318578,light,200,2,error rate,%,auth-gw,plateau,63,15:33,none,"{""A"": ""14:57"", ""C"": ""18:04""}",False,100.0,%,2,False,False,False,False,False,240,1,panel_0215.png
+panel_0216,275617502,dark,75,1,error rate,%,search-api,gap,55,15:10,none,{},True,0.5679,%,0,False,False,False,False,False,120,1,panel_0216.png
+panel_0217,1012231782,dark,200,1,cpu,%,search-api,gap,89,21:59,C,"{""A"": ""21:05"", ""B"": ""21:20"", ""C"": ""21:59""}",True,43.7297,%,3,False,False,False,False,False,180,0,panel_0217.png
+panel_0218,601277691,light,75,3,cpu,%,notif-worker,gap,55,18:40,A,"{""A"": ""18:41"", ""C"": ""19:09""}",True,45.0788,%,2,False,False,False,False,False,120,3,panel_0218.png
+panel_0219,717069142,light,200,2,requests,req/s,auth-gw,gap,59,05:59,B,"{""B"": ""05:58""}",True,2701.3759,req/s,1,False,False,False,False,True,240,2,panel_0219.png
+panel_0220,70262181,dark,75,1,requests,req/s,checkout-api,none,-1,none,none,"{""B"": ""19:16""}",False,2763.468,req/s,1,False,False,True,False,False,120,2,panel_0220.png
+panel_0221,906454604,dark,200,1,error rate,%,checkout-api,none,-1,none,none,"{""B"": ""18:51""}",False,0.6069,%,1,False,False,False,False,False,180,0,panel_0221.png
+panel_0222,180194040,light,75,1,cpu,%,auth-gw,none,-1,none,none,{},False,45.0956,%,0,False,False,True,False,False,240,2,panel_0222.png
+panel_0223,1989104851,light,200,1,p99 latency,ms,cart-svc,none,-1,none,none,{},False,142.5278,ms,0,False,False,True,False,False,180,1,panel_0223.png
+panel_0224,1191358685,dark,75,1,requests,req/s,cart-svc,step_change,72,22:57,none,"{""A"": ""21:57"", ""B"": ""22:30"", ""C"": ""23:35""}",False,11341.7017,req/s,3,False,False,False,False,False,120,1,panel_0224.png
+panel_0225,904793335,dark,200,2,error rate,%,inventory,step_change,39,08:09,A,"{""A"": ""08:08""}",False,1.1668,%,1,False,False,False,True,False,120,2,panel_0225.png
+panel_0226,497568141,light,75,1,error rate,%,search-api,step_change,37,13:07,A,"{""A"": ""13:06"", ""C"": ""13:29""}",True,1.4568,%,2,False,False,False,False,False,120,1,panel_0226.png
+panel_0227,2016728082,light,200,3,error rate,%,notif-worker,step_change,80,10:05,B,"{""A"": ""09:42"", ""B"": ""10:05"", ""C"": ""11:39""}",True,1.2405,%,3,False,False,True,True,False,180,4,panel_0227.png
+panel_0228,1108278916,dark,75,2,requests,req/s,notif-worker,ramp,156,22:06,none,"{""A"": ""19:51"", ""C"": ""22:30""}",False,9209.8008,req/s,2,False,False,False,True,False,240,3,panel_0228.png
+panel_0229,2117081320,dark,200,2,queue depth,msgs,inventory,ramp,45,15:15,C,"{""B"": ""14:57"", ""C"": ""15:16""}",False,3321.6011,msgs,2,False,False,True,True,True,120,4,panel_0229.png
+panel_0230,1416414785,light,75,1,cpu,%,inventory,ramp,106,09:46,none,"{""A"": ""08:26"", ""B"": ""10:06"", ""C"": ""10:43""}",False,74.1565,%,3,False,False,False,False,False,180,1,panel_0230.png
+panel_0231,2133297284,light,200,4,p99 latency,s,notif-worker,ramp,45,22:45,B,"{""A"": ""22:06"", ""B"": ""22:45"", ""C"": ""23:38""}",False,0.5605,s,3,False,True,False,True,True,120,6,panel_0231.png
+panel_0232,1892332909,dark,75,1,error rate,%,auth-gw,spike,55,14:40,none,"{""A"": ""13:59"", ""B"": ""14:26"", ""C"": ""15:03""}",True,0.9786,%,3,False,False,True,False,True,120,3,panel_0232.png
+panel_0233,1594189916,dark,200,1,requests,req/s,auth-gw,spike,149,12:44,none,"{""A"": ""11:05""}",True,11666.5686,req/s,1,False,False,False,False,False,240,0,panel_0233.png
+panel_0234,762487722,light,75,1,error rate,%,checkout-api,spike,58,09:28,A,"{""A"": ""09:29"", ""C"": ""11:01""}",True,0.69,%,2,False,False,False,False,False,240,1,panel_0234.png
+panel_0235,1669652446,light,200,4,error rate,%,payments,spike,38,10:38,B,"{""A"": ""10:13"", ""B"": ""10:39""}",True,1.1162,%,2,False,False,False,True,False,180,4,panel_0235.png
+panel_0236,684357868,dark,75,4,cpu,%,payments,flapping,73,20:43,B,"{""A"": ""19:45"", ""B"": ""20:43""}",False,85.0,%,2,False,False,False,False,False,120,4,panel_0236.png
+panel_0237,1845632828,dark,200,2,requests,req/s,checkout-api,flapping,82,23:22,none,"{""A"": ""22:33"", ""B"": ""23:05"", ""C"": ""23:50""}",False,9554.4615,req/s,3,True,False,False,True,False,120,3,panel_0237.png
+panel_0238,673594197,light,75,1,requests,req/s,search-api,flapping,50,12:05,C,"{""C"": ""12:06""}",False,8720.0775,req/s,1,False,False,False,False,False,240,1,panel_0238.png
+panel_0239,166437657,light,200,1,p99 latency,ms,checkout-api,flapping,161,07:41,B,"{""A"": ""06:55"", ""B"": ""07:42"", ""C"": ""08:05""}",False,450.3268,ms,3,True,False,False,False,False,240,1,panel_0239.png
+panel_0240,253080184,dark,75,1,p99 latency,s,search-api,plateau,37,21:22,none,{},False,0.2942,s,0,True,True,False,False,True,120,4,panel_0240.png
+panel_0241,975372861,dark,200,2,cpu,%,search-api,plateau,63,05:33,none,{},False,100.0,%,0,False,False,False,False,False,180,1,panel_0241.png
+panel_0242,1424175430,light,75,2,p99 latency,ms,checkout-api,plateau,53,22:53,B,"{""B"": ""22:53""}",False,321.351,ms,1,True,False,False,True,False,120,4,panel_0242.png
+panel_0243,621455198,light,200,1,requests,req/s,auth-gw,plateau,84,12:09,B,"{""A"": ""11:50"", ""B"": ""12:08"", ""C"": ""14:35""}",False,6148.769,req/s,3,False,False,False,False,True,240,1,panel_0243.png
+panel_0244,1015770203,dark,75,1,queue depth,msgs,auth-gw,gap,39,18:09,none,{},True,1000.6348,msgs,0,False,False,False,False,True,180,2,panel_0244.png
+panel_0245,1198934529,dark,200,1,p99 latency,s,search-api,gap,104,06:44,none,{},True,0.1394,s,0,False,True,False,False,False,180,1,panel_0245.png
+panel_0246,405966657,light,75,4,cpu,%,payments,gap,103,23:13,none,"{""C"": ""23:53""}",True,44.4859,%,1,False,False,False,True,False,180,5,panel_0246.png
+panel_0247,2058320370,light,200,2,requests,req/s,payments,gap,63,04:33,none,"{""C"": ""04:44""}",True,2595.0211,req/s,1,False,False,False,False,True,120,2,panel_0247.png
+panel_0248,1987850791,dark,75,4,p99 latency,s,cart-svc,none,-1,none,none,"{""A"": ""10:10"", ""B"": ""10:24"", ""C"": ""11:30""}",False,0.1386,s,3,False,True,False,True,False,120,6,panel_0248.png
+panel_0249,1500908901,dark,200,3,cpu,%,payments,none,-1,none,none,"{""A"": ""16:42"", ""B"": ""18:54""}",False,45.3529,%,2,False,False,False,True,False,180,3,panel_0249.png
+panel_0250,1139737656,light,75,4,error rate,%,inventory,none,-1,none,none,"{""B"": ""18:06""}",False,0.5698,%,1,False,False,False,False,False,180,4,panel_0250.png
+panel_0251,1599950235,light,200,1,p99 latency,ms,auth-gw,none,-1,none,none,"{""A"": ""12:54"", ""B"": ""14:09"", ""C"": ""15:01""}",False,140.6111,ms,3,False,False,False,False,False,240,0,panel_0251.png
+panel_0252,1006466132,dark,75,1,cpu,%,search-api,step_change,105,22:45,A,"{""A"": ""22:44"", ""B"": ""22:58"", ""C"": ""23:26""}",True,82.9023,%,3,False,False,False,False,True,240,2,panel_0252.png
+panel_0253,1910183176,dark,200,1,error rate,%,inventory,step_change,53,04:08,A,"{""A"": ""04:09"", ""B"": ""04:43"", ""C"": ""04:57""}",False,1.1674,%,3,False,False,False,False,False,120,0,panel_0253.png
+panel_0254,142358377,light,75,1,requests,req/s,inventory,step_change,45,06:00,none,"{""B"": ""05:49""}",False,8918.0955,req/s,1,False,False,False,False,False,180,1,panel_0254.png
+panel_0255,463406733,light,200,1,queue depth,msgs,auth-gw,step_change,64,10:04,none,"{""A"": ""09:17"", ""B"": ""09:34""}",False,3046.303,msgs,2,False,False,False,False,False,120,0,panel_0255.png
+panel_0256,980530869,dark,75,2,error rate,%,payments,ramp,97,15:52,A,"{""A"": ""15:52"", ""B"": ""16:12"", ""C"": ""16:31""}",False,1.6862,%,3,False,False,False,True,False,180,3,panel_0256.png
+panel_0257,1396220977,dark,200,4,cpu,%,notif-worker,ramp,92,02:32,C,"{""B"": ""01:09"", ""C"": ""02:33""}",False,78.1408,%,2,False,False,False,False,False,180,3,panel_0257.png
+panel_0258,1518181559,light,75,1,cpu,%,cart-svc,ramp,170,16:05,C,"{""A"": ""14:19"", ""B"": ""15:47"", ""C"": ""16:04""}",False,76.2237,%,3,False,False,False,False,False,240,1,panel_0258.png
+panel_0259,1540592968,light,200,3,cpu,%,auth-gw,ramp,72,23:42,none,"{""A"": ""23:31"", ""C"": ""00:01""}",False,73.9324,%,2,False,False,False,False,False,120,2,panel_0259.png
+panel_0260,2019343352,dark,75,3,p99 latency,s,auth-gw,spike,67,18:22,C,"{""C"": ""18:22""}",True,0.5783,s,1,False,True,False,False,False,120,4,panel_0260.png
+panel_0261,1808670705,dark,200,3,queue depth,msgs,notif-worker,spike,93,06:48,C,"{""A"": ""05:25"", ""B"": ""05:47"", ""C"": ""06:47""}",True,5611.1473,msgs,3,False,False,False,True,False,240,3,panel_0261.png
+panel_0262,1966322362,light,75,1,requests,req/s,checkout-api,spike,143,05:23,none,"{""A"": ""03:32""}",True,13811.7481,req/s,1,False,False,False,False,True,240,2,panel_0262.png
+panel_0263,738273837,light,200,3,error rate,%,payments,spike,100,11:40,none,{},True,0.9936,%,0,False,False,True,True,False,240,4,panel_0263.png
+panel_0264,1493541700,dark,75,1,cpu,%,checkout-api,flapping,62,14:47,none,"{""A"": ""14:08"", ""B"": ""15:26"", ""C"": ""17:22""}",False,80.2028,%,3,False,False,False,False,True,240,2,panel_0264.png
+panel_0265,1479175366,dark,200,2,requests,req/s,checkout-api,flapping,66,04:36,B,"{""A"": ""04:08"", ""B"": ""04:35"", ""C"": ""05:05""}",False,10001.3979,req/s,3,False,False,False,False,False,120,1,panel_0265.png
+panel_0266,1298755278,light,75,2,queue depth,msgs,checkout-api,flapping,157,07:22,none,"{""B"": ""06:34""}",False,3894.0388,msgs,1,False,False,False,True,True,240,4,panel_0266.png
+panel_0267,1297940416,light,200,4,requests,req/s,auth-gw,flapping,26,02:56,B,"{""B"": ""02:55"", ""C"": ""04:21""}",False,8299.4759,req/s,2,False,False,False,False,False,120,3,panel_0267.png
+panel_0268,1127638983,dark,75,3,requests,req/s,auth-gw,plateau,75,07:45,C,"{""B"": ""06:38"", ""C"": ""07:44""}",False,7212.3198,req/s,2,False,False,False,False,False,120,3,panel_0268.png
+panel_0269,879096125,dark,200,1,requests,req/s,inventory,plateau,63,01:48,B,"{""B"": ""01:47""}",False,7119.8054,req/s,1,False,False,True,False,True,120,2,panel_0269.png
+panel_0270,293973365,light,75,4,p99 latency,ms,notif-worker,plateau,79,04:49,none,"{""A"": ""05:02"", ""C"": ""05:28""}",False,259.995,ms,2,False,False,True,False,False,180,5,panel_0270.png
+panel_0271,218368500,light,200,3,queue depth,msgs,inventory,plateau,46,04:31,A,"{""A"": ""04:31"", ""B"": ""05:37"", ""C"": ""05:51""}",False,1879.9749,msgs,3,False,False,False,True,True,180,4,panel_0271.png
+panel_0272,5604635,dark,75,1,cpu,%,checkout-api,gap,70,19:55,none,"{""A"": ""19:33"", ""B"": ""20:21"", ""C"": ""20:39""}",True,44.117,%,3,False,False,True,False,False,120,2,panel_0272.png
+panel_0273,758165738,dark,200,1,cpu,%,cart-svc,gap,83,22:08,A,"{""A"": ""22:07"", ""B"": ""22:25"", ""C"": ""22:50""}",True,44.1438,%,3,False,False,False,False,True,240,1,panel_0273.png
+panel_0274,799409267,light,75,2,cpu,%,inventory,gap,77,09:17,C,"{""C"": ""09:16""}",True,45.2224,%,1,False,False,False,False,False,240,2,panel_0274.png
+panel_0275,2069067740,light,200,4,cpu,%,search-api,gap,116,14:56,A,"{""A"": ""14:57"", ""B"": ""15:33""}",True,45.236,%,2,False,False,True,True,False,180,5,panel_0275.png
+panel_0276,520492978,dark,75,4,error rate,%,cart-svc,none,-1,none,none,"{""C"": ""16:55""}",False,0.6186,%,1,False,False,False,True,False,240,5,panel_0276.png
+panel_0277,464980678,dark,200,1,cpu,%,payments,none,-1,none,none,"{""B"": ""15:53""}",False,44.5984,%,1,False,False,False,False,False,120,0,panel_0277.png
+panel_0278,95073527,light,75,2,cpu,%,cart-svc,none,-1,none,none,"{""A"": ""18:36"", ""C"": ""19:54""}",False,45.6216,%,2,False,False,False,False,False,180,2,panel_0278.png
+panel_0279,244035732,light,200,1,queue depth,msgs,inventory,none,-1,none,none,"{""A"": ""15:01"", ""B"": ""16:10"", ""C"": ""16:39""}",False,1001.773,msgs,3,False,False,False,False,True,180,1,panel_0279.png
+panel_0280,1412060228,dark,75,3,queue depth,msgs,cart-svc,step_change,81,04:51,B,"{""B"": ""04:51""}",False,3672.8971,msgs,1,True,False,False,True,True,120,6,panel_0280.png
+panel_0281,789585551,dark,200,3,requests,req/s,auth-gw,step_change,41,01:56,none,"{""A"": ""01:33"", ""B"": ""02:41"", ""C"": ""04:07""}",False,5291.3337,req/s,3,True,False,False,True,True,180,5,panel_0281.png
+panel_0282,1330083278,light,75,4,p99 latency,s,cart-svc,step_change,78,16:48,A,"{""A"": ""16:48"", ""B"": ""17:22"", ""C"": ""17:50""}",True,0.6314,s,3,False,True,False,False,True,180,6,panel_0282.png
+panel_0283,216854599,light,200,2,error rate,%,inventory,step_change,68,11:53,none,{},False,1.308,%,0,False,False,True,True,False,120,3,panel_0283.png
+panel_0284,1638356488,dark,75,1,error rate,%,search-api,ramp,97,10:37,B,"{""B"": ""10:37"", ""C"": ""11:32""}",False,2.0185,%,2,False,False,False,False,True,180,2,panel_0284.png
+panel_0285,573805336,dark,200,1,queue depth,msgs,checkout-api,ramp,159,13:24,B,"{""A"": ""11:34"", ""B"": ""13:24"", ""C"": ""13:58""}",False,4172.5137,msgs,3,False,False,False,False,False,240,0,panel_0285.png
+panel_0286,126795785,light,75,2,cpu,%,notif-worker,ramp,125,11:05,B,"{""B"": ""11:05""}",False,75.8458,%,1,False,False,True,False,True,240,4,panel_0286.png
+panel_0287,1963779568,light,200,4,requests,req/s,inventory,ramp,108,10:48,C,"{""B"": ""09:25"", ""C"": ""10:49""}",False,11646.3624,req/s,2,False,False,False,False,False,180,3,panel_0287.png
+panel_0288,772176077,dark,75,3,requests,req/s,search-api,spike,70,11:10,none,"{""A"": ""10:23"", ""B"": ""11:22"", ""C"": ""11:51""}",True,10893.2182,req/s,3,False,False,False,False,False,120,3,panel_0288.png
+panel_0289,684579306,dark,200,3,requests,req/s,cart-svc,spike,70,12:55,A,"{""A"": ""12:54""}",True,12870.2397,req/s,1,True,False,False,False,False,120,3,panel_0289.png
+panel_0290,102935658,light,75,4,queue depth,msgs,checkout-api,spike,162,00:12,none,{},True,4697.8903,msgs,0,False,False,False,True,False,240,5,panel_0290.png
+panel_0291,1258188151,light,200,2,error rate,%,notif-worker,spike,160,00:10,B,"{""B"": ""00:09"", ""C"": ""01:14""}",True,0.9785,%,2,False,False,False,True,False,240,2,panel_0291.png
+panel_0292,599677003,dark,75,3,queue depth,msgs,inventory,flapping,48,11:33,none,{},False,3225.1456,msgs,0,False,False,True,True,False,180,5,panel_0292.png
+panel_0293,1451980612,dark,200,1,requests,req/s,checkout-api,flapping,25,20:40,none,"{""B"": ""21:05"", ""C"": ""21:24""}",False,8671.0768,req/s,2,True,False,False,False,False,120,1,panel_0293.png
+panel_0294,1434475963,light,75,4,p99 latency,s,inventory,flapping,148,06:58,B,"{""A"": ""06:20"", ""B"": ""06:57"", ""C"": ""07:29""}",False,0.469,s,3,False,True,False,True,True,240,7,panel_0294.png
+panel_0295,313894324,light,200,3,p99 latency,s,notif-worker,flapping,124,09:49,B,"{""A"": ""09:14"", ""B"": ""09:49""}",False,0.5095,s,2,False,True,False,True,False,180,4,panel_0295.png
+panel_0296,274140004,dark,75,1,requests,req/s,checkout-api,plateau,75,23:45,C,"{""A"": ""22:54"", ""B"": ""23:11"", ""C"": ""23:45""}",False,5609.9661,req/s,3,False,False,False,False,False,120,1,panel_0296.png
+panel_0297,520169990,dark,200,4,error rate,%,payments,plateau,51,20:06,B,"{""A"": ""19:23"", ""B"": ""20:07"", ""C"": ""20:57""}",False,99.9961,%,3,False,False,False,True,False,120,4,panel_0297.png
+panel_0298,1696102734,light,75,1,error rate,%,notif-worker,plateau,110,14:20,none,"{""B"": ""13:26""}",False,99.9981,%,1,False,False,False,False,False,180,1,panel_0298.png
+panel_0299,572397562,light,200,1,queue depth,msgs,cart-svc,plateau,104,20:44,none,{},False,2222.1288,msgs,0,True,False,False,False,False,180,1,panel_0299.png
+panel_0300,908269714,dark,75,4,queue depth,msgs,inventory,gap,77,06:32,B,"{""B"": ""06:32""}",True,1021.4228,msgs,1,False,False,False,True,False,180,5,panel_0300.png
+panel_0301,275732612,dark,200,2,queue depth,msgs,notif-worker,gap,66,12:06,B,"{""A"": ""11:53"", ""B"": ""12:07"", ""C"": ""12:27""}",True,1005.3471,msgs,3,False,False,False,False,False,120,1,panel_0301.png
+panel_0302,394407677,light,75,4,queue depth,msgs,payments,gap,156,04:21,none,{},True,1053.9003,msgs,0,False,False,False,False,True,240,5,panel_0302.png
+panel_0303,1431242691,light,200,1,cpu,%,payments,gap,69,06:24,C,"{""C"": ""06:24""}",True,44.8637,%,1,False,False,True,False,False,240,1,panel_0303.png
+panel_0304,1628328542,dark,75,1,requests,req/s,inventory,none,-1,none,none,"{""A"": ""14:44"", ""B"": ""15:21"", ""C"": ""16:04""}",False,2667.9873,req/s,3,False,False,False,False,True,180,2,panel_0304.png
+panel_0305,1859310555,dark,200,3,p99 latency,s,payments,none,-1,none,none,"{""A"": ""16:05"", ""B"": ""16:37""}",False,0.1465,s,2,False,True,False,False,False,180,3,panel_0305.png
+panel_0306,1190312687,light,75,1,cpu,%,search-api,none,-1,none,none,{},False,45.6367,%,0,False,False,True,False,False,120,2,panel_0306.png
+panel_0307,595056202,light,200,3,queue depth,msgs,cart-svc,none,-1,none,none,"{""B"": ""01:28"", ""C"": ""02:35""}",False,1008.7408,msgs,2,False,False,False,False,False,120,2,panel_0307.png
+panel_0308,940909244,dark,75,4,p99 latency,s,notif-worker,step_change,95,21:35,none,"{""B"": ""20:11"", ""C"": ""21:26""}",False,0.645,s,2,False,True,True,True,False,180,7,panel_0308.png
+panel_0309,335189952,dark,200,3,queue depth,msgs,payments,step_change,60,17:15,none,"{""A"": ""17:02""}",True,2960.0502,msgs,1,False,False,False,False,True,180,3,panel_0309.png
+panel_0310,516740489,light,75,1,requests,req/s,notif-worker,step_change,138,21:33,A,"{""A"": ""21:33"", ""B"": ""22:59""}",False,7906.6722,req/s,2,True,False,False,False,True,240,3,panel_0310.png
+panel_0311,1033244114,light,200,4,queue depth,msgs,checkout-api,step_change,120,08:00,none,"{""A"": ""07:22"", ""B"": ""07:40"", ""C"": ""08:38""}",False,3534.1877,msgs,3,False,False,True,True,False,180,5,panel_0311.png
+panel_0312,1677970477,dark,75,2,cpu,%,checkout-api,ramp,78,03:18,none,{},False,76.6443,%,0,False,False,False,False,False,180,2,panel_0312.png
+panel_0313,555917297,dark,200,4,cpu,%,cart-svc,ramp,76,11:01,A,"{""A"": ""11:00"", ""B"": ""11:34""}",False,76.6832,%,2,False,False,False,True,False,120,4,panel_0313.png
+panel_0314,784443685,light,75,3,requests,req/s,search-api,ramp,69,14:09,B,"{""B"": ""14:10"", ""C"": ""14:38""}",False,10285.5807,req/s,2,False,False,True,False,False,120,4,panel_0314.png
+panel_0315,80836152,light,200,2,cpu,%,payments,ramp,48,18:33,B,"{""A"": ""18:03"", ""B"": ""18:34"", ""C"": ""19:11""}",False,83.9008,%,3,False,False,False,True,False,120,2,panel_0315.png
+panel_0316,92536553,dark,75,1,queue depth,msgs,search-api,spike,37,09:37,none,"{""A"": ""09:45"", ""B"": ""10:09"", ""C"": ""10:23""}",True,5088.0608,msgs,3,False,False,True,False,False,120,2,panel_0316.png
+panel_0317,1173169434,dark,200,1,p99 latency,s,cart-svc,spike,68,06:38,C,"{""C"": ""06:38""}",True,0.893,s,1,True,True,False,False,False,180,2,panel_0317.png
+panel_0318,2073114720,light,75,1,error rate,%,search-api,spike,67,18:22,B,"{""A"": ""17:30"", ""B"": ""18:21"", ""C"": ""19:57""}",True,0.919,%,3,False,False,False,False,False,180,1,panel_0318.png
+panel_0319,1235532403,light,200,2,p99 latency,ms,auth-gw,spike,94,06:04,B,"{""A"": ""05:28"", ""B"": ""06:03"", ""C"": ""06:48""}",True,830.7735,ms,3,False,False,False,False,False,240,1,panel_0319.png
+panel_0320,65422676,dark,75,4,cpu,%,checkout-api,flapping,163,03:28,B,"{""A"": ""01:58"", ""B"": ""03:28"", ""C"": ""04:18""}",False,79.131,%,3,False,False,True,True,True,240,7,panel_0320.png
+panel_0321,1232280443,dark,200,3,p99 latency,s,search-api,flapping,71,01:26,C,"{""A"": ""00:33"", ""B"": ""01:04"", ""C"": ""01:25""}",False,0.5511,s,3,False,True,False,False,False,180,3,panel_0321.png
+panel_0322,258705373,light,75,1,queue depth,msgs,notif-worker,flapping,60,10:15,B,"{""B"": ""10:14""}",False,3491.4419,msgs,1,True,False,False,False,False,240,2,panel_0322.png
+panel_0323,1486360621,light,200,4,p99 latency,s,inventory,flapping,82,08:07,B,"{""A"": ""07:44"", ""B"": ""08:07"", ""C"": ""09:03""}",False,0.509,s,3,False,True,False,False,False,180,4,panel_0323.png
+panel_0324,1000324792,dark,75,1,requests,req/s,search-api,plateau,97,08:07,none,"{""B"": ""08:26"", ""C"": ""09:15""}",False,6870.3555,req/s,2,False,False,True,False,False,180,2,panel_0324.png
+panel_0325,780495543,dark,200,2,cpu,%,search-api,plateau,50,09:20,B,"{""A"": ""09:01"", ""B"": ""09:21"", ""C"": ""10:17""}",False,99.9989,%,3,False,False,False,False,False,180,1,panel_0325.png
+panel_0326,446365087,light,75,4,cpu,%,inventory,plateau,112,07:22,none,"{""A"": ""05:37"", ""C"": ""06:17""}",False,99.9987,%,2,False,False,False,True,False,240,5,panel_0326.png
+panel_0327,377979903,light,200,2,cpu,%,search-api,plateau,67,19:52,A,"{""A"": ""19:52""}",False,99.9973,%,1,False,False,True,True,True,180,4,panel_0327.png
+panel_0328,966423755,dark,75,1,queue depth,msgs,search-api,gap,131,17:26,C,"{""A"": ""16:32"", ""B"": ""17:08"", ""C"": ""17:25""}",True,1019.7509,msgs,3,False,False,False,False,False,240,1,panel_0328.png
+panel_0329,1218837075,dark,200,3,cpu,%,inventory,gap,92,21:17,none,"{""A"": ""20:12"", ""B"": ""21:52"", ""C"": ""23:06""}",True,47.0973,%,3,False,False,False,False,True,240,3,panel_0329.png
+panel_0330,1479610917,light,75,3,p99 latency,s,auth-gw,gap,105,15:30,none,"{""A"": ""14:00"", ""B"": ""15:50"", ""C"": ""16:18""}",True,0.1366,s,3,False,True,False,False,False,180,4,panel_0330.png
+panel_0331,2056949928,light,200,1,error rate,%,notif-worker,gap,87,19:42,none,"{""A"": ""20:34"", ""C"": ""21:05""}",True,0.6144,%,2,False,False,False,False,False,180,0,panel_0331.png
+panel_0332,69709886,dark,75,2,cpu,%,inventory,none,-1,none,none,"{""A"": ""05:36""}",False,46.1779,%,1,False,False,False,True,True,120,4,panel_0332.png
+panel_0333,2010715190,dark,200,4,error rate,%,notif-worker,none,-1,none,none,"{""A"": ""16:15"", ""B"": ""16:46""}",False,0.5947,%,2,False,False,False,True,False,180,4,panel_0333.png
+panel_0334,1205363899,light,75,1,p99 latency,ms,notif-worker,none,-1,none,none,{},False,138.7769,ms,0,False,False,True,False,True,180,3,panel_0334.png
+panel_0335,158690399,light,200,2,queue depth,msgs,payments,none,-1,none,none,"{""A"": ""15:37"", ""B"": ""16:11"", ""C"": ""16:33""}",False,1058.5481,msgs,3,False,False,False,False,True,240,2,panel_0335.png
